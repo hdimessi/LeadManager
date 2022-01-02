@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "891a7aee13ed17e09ce2dfdc78ab692251ee049b46b14b1fa13b1aeab3dee4f1"
+            "sha256": "7016100e6308aa12e764129eb0ec2d1a8c6c6e740dd5d7685207c5ed5a3e3195"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -114,13 +114,14 @@
             "version": "==4.0"
         },
         "django-rest-knox": {
+            "editable": true,
+            "git": "https://github.com/James1345/django-rest-knox.git",
             "hashes": [
                 "sha256:4a57b05b04fcccc41fcc969ad0e3f180467d7045b45003b58f5a437d6d3370d4",
                 "sha256:e4ac93e6d7dd63af5b58ff19d7f197788a874e932464d77db5630f185365eac0",
                 "sha256:f7dac2f7a6ece7c1bd331bdb01dc3d16e0b340f3d1001a7285cc13b171d539a3"
             ],
-            "index": "pypi",
-            "version": "==4.1.0"
+            "ref": "8447cd00358b1a3f76862278711abd2cdcb8837a"
         },
         "djangorestframework": {
             "hashes": [
@@ -153,5 +154,30 @@
             "version": "==0.4.2"
         }
     },
-    "develop": {}
+    "develop": {
+        "autopep8": {
+            "hashes": [
+                "sha256:44f0932855039d2c15c4510d6df665e4730f2b8582704fa48f9c55bd3e17d979",
+                "sha256:ed77137193bbac52d029a52c59bec1b0629b5a186c495f1eb21b126ac466083f"
+            ],
+            "index": "pypi",
+            "version": "==1.6.0"
+        },
+        "pycodestyle": {
+            "hashes": [
+                "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20",
+                "sha256:eddd5847ef438ea1c7870ca7eb78a9d47ce0cdb4851a5523949f2601d0cbbe7f"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==2.8.0"
+        },
+        "toml": {
+            "hashes": [
+                "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
+                "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
+            ],
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.10.2"
+        }
+    }
 }
